@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/GlobalStyle.css" />
+    <link rel="stylesheet" href="./styles/Styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Dashboard GCPRO</title>
+  </head>
+  <body>
+    <div class="mainContainer">
+      <menu class="menu">
+        <ul class="menuIcons">
+          <li>
+            <img src="./assets/Menu.svg" alt="">
+          </li>
+          <li>
+            <img src="./assets/Group.svg" alt="">
+          </li>
+          <li>
+            <img src="./assets/Prédio.svg" alt="">
+          </li>
+          <li>
+            <img src="./assets/Vector.svg" alt="">
+          </li>
+          <li>
+            <img src="./assets/Caixa.svg" alt="">
+          </li>
+          <li>
+            <img src="./assets/Faturamento.svg" alt="">
+          </li>
+          <li>
+            <img src="./assets/Financeiro.svg" alt="">
+          </li>
+          <li>
+            <img src="./assets/Vector (1).svg" alt="">
+          </li>
+          <li>
+            <img src="./assets/Manutenção.svg" alt="">
+          </li>
+          <li>
+            <img src="./assets/Serviços.svg" alt="">
+          </li>
+        </ul>
+      </menu>
+      <div class="rightContainer">
+        <header class="header">
+          <div class="headerContainer">
+            <a href="https://gcpro.com.br/"
+              ><img
+                class="headerLogo"
+                src="./assets/logo_gcpro.png"
+                alt="Logo GCPRO"
+            /></a>
+            <nav class="headerNav">
+              <img src="./assets/config.svg" alt="">
+              <img src="./assets/notification.svg" alt="">
+              </svg>
+            </nav>
+          </div>
+        </header>
+        <main>
+          <section class="headerSection">
+            <h1>SMN Tecnologia da Informação</h1>
+            <div class="periodDiv">
+              <ul class="periodButtons">
+                <li>Este mês</li>
+                <li>Último mês</li>
+                <li>Este ano</li>
+                <li>Últimos 12 meses</li>
+              </ul>
+              <div class="periodSelect">
+                <img src="./assets/calendar.svg" alt="">
+                <p>Selecionar Período</p>
+              </div>
+            </div>
+          </section>
+          <section>
+            <ul class="bigCardsList">
+              <li class="bigCard">
+                <p>Saldo</p>
+                <div class="cardContent">
+                  <h4 class="cardBlueValue">R$5.502,45</h4>
+                  <div class="cardBadge">
+                    <img src="./assets/green up.svg" alt="">
+                    <p>12,5%</p>
+                  </div>
+                </div>
+              </li>
+              <li class="bigCard">
+                <p>Entradas</p>
+                <div class="cardContent">
+                  <h4 class="cardValue">R$9.450,00</h4>
+                  <div class="cardBadge">
+                    <img src="./assets/green up.svg" alt="">
+                    <p>27%</p>
+                  </div>
+                </div>
+              </li>
+              <li class="bigCard">
+                <p>Saídas</p>
+                <div class="cardContent">
+                  <h4 class="cardValue">R$3.395,55</h4>
+                  <div class="cardBadge">
+                    <img src="./assets/red down.svg" alt="">
+                    <p>-15%</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+          <section class="smallCardSection">
+            <ul class="smallCardsList">
+              <li class="smallCard">
+                <div class="iconFrame greenFrame">
+                  <img src="./assets/entrada.svg" alt="">
+                </div>
+                <div class="smallCardContent">
+                  <h5>Adicionar Entrada</h5>
+                  <p>Criar uma entrada manualmente</p>
+                </div>
+              </li>
+              <li class="smallCard">
+                <div class="iconFrame redFrame">
+                  <img src="./assets/saida.svg" alt="">
+                  </svg>
+                </div>
+                <div class="smallCardContent">
+                  <h5>Adicionar Saída</h5>
+                  <p>Criar uma saída manualmente</p>
+                </div>
+              </li>
+              <li class="smallCard">
+                <div class="iconFrame blueFrame">
+                  <img src="./assets/alterar.svg" alt="">
+                </div>
+                <div class="smallCardContent">
+                  <h5>Alterar Unidade de Negócio</h5>
+                  <p>Selecione uma Unid. de Negócio</p>
+                </div>
+              </li>
+            </ul>
+          </section>
+          <section class="dashboard">
+            <section class="leftDashboard">
+              <h6>Despesas por Categoria</h6>
+              <div>
+                <img src="./assets/Pie Chart.svg" alt="">
+              </div>
+              <ul class="categoryList">
+                <li class="categoryCard">
+                  <div>
+                    <img src="./assets/aluguel.svg" alt="">
+                    <p>Aluguel</p>
+                  </div>
+                  <p>41,35%</p>
+                </li>
+                <li class="categoryCard">
+                  <div>
+                    <img src="./assets/impostos.svg" alt="">
+                    <p>Impostos</p>
+                  </div>
+                  <p>21,51%</p>
+                </li>
+                <li class="categoryCard">
+                  <div>
+                    <img src="./assets/transporte.svg" alt="">
+                    <p>Transporte</p>
+                  </div>
+                  <p>13,47%</p>
+                </li>
+                <li class="categoryCard">
+                  <div>
+                    <img src="./assets/alimentacao.svg" alt="">
+                    <p>Alimentação</p>
+                  </div>
+                  <p>9,97%</p>
+                </li>
+                <li class="categoryCard">
+                  <div>
+                    <img src="./assets/colaboradores.svg" alt="">
+                    <p>Colaboradores</p>
+                  </div>
+                  <p>3,35%</p>
+                </li>
+              </ul>
+            </section>
+            <section class="rightDashboard">
+              <div>
+                <h6>Últimas movimentações</h6>
+                <p>Confira as suas últimas transações</p>
+              </div>
+              <table class="table">
+                <tr class="tableHeader">
+                  <th>Descrição</th>
+                  <th>Método</th>
+                  <th>Data</th>
+                  <th>Valor</th>
+                  <th> </th>
+                </tr>
+                <tr class="tableLine">
+                  <td>
+                    <div>
+                      <img src="./assets/rv.svg" alt="">
+                      <p>Rafael Valentim</p>
+                    </div>
+                  </td>
+                  <td>PIX</td>
+                  <td>01/04/2024</td>
+                  <td>+R$750,00</td>
+                  <td>
+                    <img src="./assets/dots.svg" alt="">
+                  </td>
+                </tr>
+                <tr class="tableLine">
+                  <td>
+                    <div>
+                      <img src="./assets/Netflix logo.svg" alt="">
+                      <p>Netflix</p>
+                    </div>
+                  </td>
+                  <td>Cartão de Crédito</td>
+                  <td>29/03/2024</td>
+                  <td>-R$9,90</td>
+                  <td>
+                    <img src="./assets/dots.svg" alt="">
+                  </td>
+                </tr>
+                <tr class="tableLine">
+                  <td>
+                    <div>
+                      <img src="./assets/Spotify logo.svg" alt="">
+                      <p>Spotify</p>
+                    </div>
+                  </td>
+                  <td>Cartão de Crédito</td>
+                  <td>29/03/2024</td>
+                  <td>-R$19,90</td>
+                  <td>
+                    <img src="./assets/dots.svg" alt="">
+                  </td>
+                </tr>
+                <tr class="tableLine">
+                  <td>
+                    <div>
+                      <img src="./assets/rv.svg" alt="">
+                      <p>Rafael Valentim</p>
+                    </div>
+                  </td>
+                  <td>PIX</td>
+                  <td>27/03/2024</td>
+                  <td>+R$400.00</td>
+                  <td>
+                    <img src="./assets/dots.svg" alt="">
+                  </td>
+                </tr>
+                <tr class="tableLine">
+                  <td>
+                    <div>
+                      <img src="./assets/rc.svg" alt="">
+
+                      <p>Ricardo Corrales</p>
+                    </div>
+                  </td>
+                  <td>Cartão de Crédito</td>
+                  <td>26/03/2024</td>
+                  <td>-R$64,33</td>
+                  <td>
+                    <img src="./assets/dots.svg" alt="">
+                  </td>
+                </tr>
+                <tr class="tableLine">
+                  <td>
+                    <div>
+                      <img src="./assets/Amazon logo.svg" alt="">
+                      <p>Amazon</p>
+                    </div>
+                  </td>
+                  <td>Cartão de Crédito</td>
+                  <td>24/03/2024</td>
+                  <td>-R$147,90</td>
+                  <td>
+                    <img src="./assets/dots.svg" alt="">
+                  </td>
+                </tr>
+                <tr class="tableLine">
+                  <td>
+                    <div>
+                      <img src="./assets/Shopify logo.svg" alt="">
+
+                      <p>Shopify</p>
+                    </div>
+                  </td>
+                  <td>Cartão de Crédito</td>
+                  <td>21/03/2024</td>
+                  <td>-R$57,98</td>
+                  <td>
+                    <img src="./assets/dots.svg" alt="">
+                  </td>
+                </tr>
+              </table>
+            </section>
+          </section>
+        </main>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

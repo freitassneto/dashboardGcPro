@@ -1,0 +1,350 @@
+.mainContainer {
+  display: flex;
+  background-color: #0022650d;
+}
+
+.rightContainer {
+  width: 100vw;
+  height: 100vh;
+}
+
+.menuIcons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #daebffe5;
+  width: 60px;
+  height: 100vh;
+}
+
+.menuIcons > li > img {
+  width: 25px;
+  height: 28px;
+}
+
+header {
+  padding: 20px 20px;
+  border-bottom: 2px solid rgb(238, 238, 238);
+}
+
+.headerContainer {
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerLogo {
+  width: 142px;
+}
+
+.headerNav {
+  display: flex;
+  gap: 30px;
+}
+
+img {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
+
+.headerSection {
+  margin: 0 auto;
+  display: flex;
+  width: 86%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 30px;
+}
+
+.headerSection > h1 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.periodDiv {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.periodButtons {
+  display: flex;
+  gap: 30px;
+  padding: 15px;
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 10px;
+  font-weight: 600;
+  list-style: none;
+}
+
+.periodButtons > li {
+  position: relative; /* Necessário para o posicionamento da barra divisória */
+  cursor: pointer; /* Para mostrar que é clicável */
+  padding: 0 10px; /* Ajuste o padding conforme necessário */
+}
+
+.periodButtons > li.clicked {
+  background-color: #daebff;
+  color: #155eef;
+  font-weight: 600;
+}
+
+.periodSelect {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 10px;
+}
+
+.bigCardsList {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.bigCard {
+  border: 1.2px solid #eceff2;
+  border-radius: 14px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #ffffff;
+  position: relative;
+  width: 22%;
+  max-width: 340px;
+
+  & p {
+    font-weight: 500;
+    font-size: 17px;
+    color: #516778;
+  }
+
+  & .cardContent {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+
+    & .cardBlueValue {
+      font-size: 44px;
+      color: #155eef;
+    }
+
+    & .cardValue {
+      font-size: 44px;
+      color: #22292f;
+    }
+
+    & .cardBadge {
+      margin: 0 auto;
+      border: 1.2px solid #d5dde2;
+      border-radius: 7px;
+      padding: 6px 8px;
+      display: flex;
+      align-items: center;
+      height: 9px;
+      width: 10%;
+      position: absolute;
+      right: 20px;
+      bottom: 30px;
+
+      & img {
+        height: 14px;
+        width: 17px;
+      }
+
+      & p {
+        font-size: 10px;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.smallCardSection {
+  margin-top: 25px;
+}
+
+.smallCardsList {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.smallCard {
+  display: flex;
+  gap: 10px;
+  border: 1.2px solid #eceff2;
+  border-radius: 14px;
+  padding: 30px;
+  background-color: #ffffff;
+  width: 22%;
+  max-width: 340px;
+
+  & .greenFrame {
+    background-color: #dcfae6;
+  }
+
+  & .redFrame {
+    background-color: #fee4e2;
+  }
+
+  & .blueFrame {
+    background-color: #f9fafb;
+  }
+
+  & .iconFrame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+    & img {
+      padding: 10px;
+    }
+  }
+
+  & .smallCardContent {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    & h5 {
+      font-size: 18px;
+      font-weight: 600;
+      color: #333e47;
+    }
+
+    & p {
+      font-size: 16px;
+      font-weight: 400;
+      color: #516778;
+    }
+  }
+}
+
+.dashboard {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.leftDashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1.2px solid #eceff2;
+  border-radius: 14px;
+  padding: 30px;
+  background-color: #ffffff;
+  width: 22%;
+  max-width: 340px;
+
+  & h6 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  & > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  & > div > img {
+    height: 230px;
+    width: 230px;
+  }
+}
+
+.categoryList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.categoryCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 8px;
+  border-bottom: 1.2px solid rgb(238, 238, 238);
+
+  & div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    & img {
+      width: 36px;
+      height: 36px;
+    }
+
+    & p {
+      font-weight: 500;
+      font-size: 16px;
+      color: #101828;
+    }
+  }
+
+  & p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #668091;
+  }
+}
+
+.rightDashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1.2px solid #eceff2;
+  border-radius: 14px;
+  padding: 30px;
+  background-color: #ffffff;
+  width: 50%;
+
+  & h6 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #101828;
+  }
+
+  & p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #516778;
+  }
+}
+
+.table {
+  & .tableHeader {
+    text-align: left;
+    background-color: #f9fafb;
+    height: 38px;
+  }
+
+  & .tableLine {
+    border-bottom: 1px solid rgb(238, 238, 238);
+    height: 38px;
+    & td {
+      position: relative;
+      & div {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        top: 5px;
+      }
+    }
+  }
+}
